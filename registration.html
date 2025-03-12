@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="top">
+    <header class="header center">
+        <div class="header__left">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <a href="#"><img src="img/search.svg" alt="search"></a>
+        </div>
+        <nav class="header__right">
+            <label for="header__check"><img src="img/menu.svg" alt="menu"></label>
+            <a class="header__link-site" href="registration.html"><img src="img/reg.svg" alt="reg"></a>
+            <a class="header__link-site" href="registration.html"><img src="img/cart.svg" alt="cart"></a>
+        </nav>
+        <input class="header__checkbox" id="header__check" type="checkbox">
+        <div class="mobile-menu">
+            <h3 class="mobile-menu__heading">MENU</h3>
+            <div class="mobile-menu__box">
+                <div class="mobile-menu__item">
+                    <a href="catalog.html" class="mobile-menu__title">MAN</a>
+                    <ul class="mobile-menu__list">
+                        <li><a class="mobile-menu__link" href="#">Accessories</a></li>
+                        <li><a class="mobile-menu__link" href="#">Bags</a></li>
+                        <li><a class="mobile-menu__link" href="#">Denim</a></li>
+                        <li><a class="mobile-menu__link" href="#">T-Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu__item">
+                    <a href="catalog.html" class="mobile-menu__title">WOMAN</a>
+                    <ul class="mobile-menu__list">
+                        <li><a class="mobile-menu__link" href="">Accessories</a></li>
+                        <li><a class="mobile-menu__link" href="">Bags</a></li>
+                        <li><a class="mobile-menu__link" href="">Denim</a></li>
+                        <li><a class="mobile-menu__link" href="">T-Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu__item">
+                    <a href="catalog.html" class="mobile-menu__title">KIDS</a>
+                    <ul class="mobile-menu__list">
+                        <li><a class="mobile-menu__link" href="">Accessories</a></li>
+                        <li><a class="mobile-menu__link" href="">Bags</a></li>
+                        <li><a class="mobile-menu__link" href="">Denim</a></li>
+                        <li><a class="mobile-menu__link" href="">T-Shirts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="breadcrumb center">
+        <div class="breadcrumb-title">REGISTRATION</div>
+        <div class="breadcrumb__box-link">
+            <a href="#" class="breadcrumb__link">HOME</a>
+            <a href="#" class="breadcrumb__link">Registration</a>
+        </div>
+    </section>
+
+    <section class="reg-container-wrapper center">
+        <div class="reg-form-container">
+            <h2>Your Name</h2>
+            <input type="text" name="first-name" placeholder="First Name" required>
+            <input type="text" name="last-name" placeholder="Last Name" required>
+            <div class="reg-gender">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div>
+            <br />
+            <h2>Login details</h2>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <small>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters.</small>
+            <button type="submit">JOIN NOW →</button>
+        </div>
+        <div class="reg-perks-container">
+            <h2>LOYALTY HAS ITS PERKS</h2>
+            <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+            <ul>
+                <li>15% off welcome offer</li>
+                <li>Free shipping, returns and exchanges on all orders</li>
+                <li>$10 off a purchase on your birthday</li>
+                <li>Early access to products</li>
+                <li>Exclusive offers & rewards</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="sub_container center">
+        <div class="testimonial">
+            <img src="img/Intersect.png" alt="User Image">
+            <p>"Vestibulum quis porttitor dui! Quisque viverra nunc mi, <em>a pulvinar purus condimentum</em>"</p>
+        </div>
+        <div class="subscribe">
+            <h2>SUBSCRIBE</h2>
+            <p>FOR OUR NEWSLETTER AND PROMOTION</p>
+            <form>
+                <input type="email" placeholder="Enter Your Email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <footer class="center">
+        <p>© 2021 Brand All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#"><div class="social-icons-container"><img src="img/facebook-f-brands.png" alt="Facebook"/></div></a>
+            <a href="#"><div class="social-icons-container twt"><img src="img/instagram-brands.png" alt="Instagram"/></div></a>
+            <a href="#"><div class="social-icons-container"><img src="img/pinterest-p-brands.png" alt="Pinterest"/></div></a>
+            <a href="#"><div class="social-icons-container"><img src="img/twitter-brands.png" alt="Twitter"/></div></a>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>
